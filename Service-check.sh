@@ -1,5 +1,8 @@
 #!/bin/bash
-apt-get update && apt-get upgrade -y
+#apt-get update && apt-get upgrade -y
+echo hello this is a changed version
+echo I am not sure if this is a good change
+echo we will just merge this line
 wait
 if [ ! -f /data/webmin/config ];
 then
